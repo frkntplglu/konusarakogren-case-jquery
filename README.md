@@ -22,5 +22,5 @@ Proje hazırlanırken Google Page Speed performansına ve SEO tarafında uyumlul
 
 ## Ek Hususlar
 
-Bu proje için çok gerekli olmasa da, incelemeniz açısından aynı projenin React kütüphanesi ile hazırlanmış halini de [buradan](https://konusarakogren-case.netlify.app/) inceleyebilirsiniz.
+Bu proje için çok gerekli olmasa da, incelemeniz açısından aynı projenin React ve Next.js kütüphanesi ile hazırlanmış halini de [buradan](https://konusarakogren-case-nextjs.vercel.app/) inceleyebilirsiniz.
 
