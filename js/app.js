@@ -36,7 +36,7 @@ $(document).ready(function(){
                 items : 2,
             },
             1024 : {
-                items: 4
+                items: 3
             }
         }
       });
