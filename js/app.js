@@ -59,7 +59,7 @@ $(document).ready(function(){
         let content = $('#comment').val();
 
         if(!fullName || !email || !content ){
-            return alert('Doldursana be kardeşim')
+            return alert('Tüm alanların doldurulması zorunludur.')
         }
         let newComment = {
             id,
@@ -84,7 +84,7 @@ $(document).ready(function(){
         comments.map(comment => {
             commentWrapper.append(`
             <div class="comment">
-                <div class="comment-author">${comment.fullName} <div class="comment-date">30 Haziran 2021</div></div>
+                <div class="comment-author">${comment.fullName} </div>
                 <div class="comment-author-email">${comment.email}</div>
                 <div class="comment-text">${comment.content} <button class="delete-comment" data-id="${comment.id}">SİL</button></div>
             </div>

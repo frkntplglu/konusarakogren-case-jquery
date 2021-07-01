@@ -681,10 +681,6 @@ body {
   opacity: 0.5;
   margin-top: -5px;
 }
-.testimonial-content .comment-date {
-  font-weight: 300;
-  font-size: 12px;
-}
 .testimonial-content .comment-text {
   margin-top: 10px;
   font-size: 14px;
