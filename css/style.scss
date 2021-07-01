@@ -769,6 +769,9 @@ body{
         margin:20px 0;
         color: #fff;
         font-size: 24px;
+        &:hover{
+          color: #fff;
+        }
       }
       .mobile-close{
         display: block;
