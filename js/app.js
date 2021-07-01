@@ -2,7 +2,6 @@ $(document).ready(function(){
     // Mobile Menu
     $('.mobile-menu-btn button,.main-menu a').click(function(e){
         let screenSize = window.innerWidth;
-        console.log(screenSize)
         if(screenSize > 1024) return
         $('.main-menu').toggleClass('open-menu')
     })
